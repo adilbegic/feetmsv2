@@ -15,20 +15,20 @@ public class CountryController {
     @Autowired
     private CountryService countryService;
 
-/*    @GetMapping("/countries")
+    @GetMapping("/countries")
     public String getAll(Model model) {
         List<Country> countries = countryService.getAll();
         model.addAttribute("countries", countries);
         return "parameters/countryList";
-    }*/
+    }
 
-    @GetMapping("/countries")
+/*    @GetMapping("/countries")
     @ResponseBody
     public List<Country> getAll(Model model) {
         List<Country> countries = countryService.getAll();
 
         return countries;
-    }
+    }*/
 
     @GetMapping ("/countryAdd")
     public String addCountry() {
