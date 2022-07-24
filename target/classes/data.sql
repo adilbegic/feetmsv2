@@ -1,0 +1,1 @@
+insert into Country values (4, 'BIH', 'Bosna', 'EU', 'Bosna i Hercegovina', 'Bošnjak');

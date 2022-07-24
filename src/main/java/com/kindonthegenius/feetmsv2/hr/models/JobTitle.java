@@ -1,10 +1,11 @@
-package si.beg.bussinesMS.hr.models;
+package com.kindonthegenius.feetmsv2.hr.models;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.kindonthegenius.feetmsv2.parameters.models.CommonObject;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import si.beg.bussinesMS.parameters.models.CommonObject;
+
 
 import javax.persistence.Entity;
 

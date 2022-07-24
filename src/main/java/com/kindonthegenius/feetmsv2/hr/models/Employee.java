@@ -1,4 +1,4 @@
-package si.beg.bussinesMS.hr.models;
+package com.kindonthegenius.feetmsv2.hr.models;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
@@ -15,7 +15,7 @@ import java.util.Date;
 @Data
 @EqualsAndHashCode(callSuper=false)
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
-public class Employee extends Person {
+public class Employee extends com.kindonthegenius.feetmsv2.hr.models.Person {
 		
 	@ManyToOne
 	@JoinColumn(name="employeetypeid", insertable=false, updatable=false)

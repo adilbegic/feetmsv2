@@ -1,12 +1,12 @@
-package si.beg.bussinesMS.hr.models;
+package com.kindonthegenius.feetmsv2.hr.models;
 
+import com.kindonthegenius.feetmsv2.parameters.models.Country;
+import com.kindonthegenius.feetmsv2.parameters.models.State;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.Formula;
 import org.springframework.format.annotation.DateTimeFormat;
-import si.beg.bussinesMS.parameters.models.Country;
-import si.beg.bussinesMS.parameters.models.State;
 
 import javax.persistence.*;
 import java.util.Date;
