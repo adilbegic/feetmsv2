@@ -17,7 +17,7 @@ public class CountryController {
 
     @GetMapping("/countries")
     public String getAll(Model model) {
-        List<Country> countries = countryService.getAll();
+        List<Country> countries = countryService.findAll();
         model.addAttribute("countries", countries);
         return "parameters/countryList";
     }
